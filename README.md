@@ -124,29 +124,6 @@
     </ol>
     <p><strong>Exemplo</strong>: <code>http://localhost:5000/busca?q=unimed</code> retorna operadoras com "unimed" no nome.</p>
 
-  <h3>5. Frontend Vue.js (App.vue)</h3>
-    <p><strong>Propósito</strong>: Interface web para buscar operadoras via API.</p>
-    <p><strong>Como Executar</strong>:</p>
-    <ol>
-        <li>No diretório do frontend, instale as dependências:
-            <pre><code>npm install</code></pre>
-        </li>
-        <li>Inicie o servidor de desenvolvimento Vue:
-            <pre><code>npm run serve</code></pre>
-        </li>
-        <li>Acesse <code>http://localhost:8080</code> no navegador.</li>
-    </ol>
-    <p><strong>Uso</strong>: Digite um termo no campo de busca para listar operadoras correspondentes.</p>
-
-  <h3>6. Teste com Postman</h3>
-    <p><strong>Propósito</strong>: Testar a API Flask usando a coleção fornecida.</p>
-    <p><strong>Como Usar</strong>:</p>
-    <ol>
-        <li>Importe o arquivo <code>postman_collection.json</code> no Postman.</li>
-        <li>Configure a variável <code>consulta</code> com um termo (ex.: "unimed").</li>
-        <li>Execute a requisição "Buscar Operadoras".</li>
-    </ol>
-
   <h2>Notas Adicionais</h2>
     <ul>
         <li><strong>Diretórios</strong>: Certifique-se de que os arquivos baixados e gerados têm permissões de escrita no diretório atual.</li>
