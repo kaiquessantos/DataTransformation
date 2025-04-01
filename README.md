@@ -112,13 +112,13 @@
         <li><strong>Saída</strong>: Arquivos descompactados de cada ZIP e o arquivo <code>operadoras_ativas.csv</code>.</li>
     </ol>
 
-  <h3>4. API Flask (app.py)</h3>
+  <h3>4. API Flask (server.py)</h3>
     <p><strong>Propósito</strong>: Cria uma API que permite buscar operadoras de saúde ativas com base em um termo de consulta.</p>
     <p><strong>Como Executar</strong>:</p>
     <ol>
         <li>Certifique-se de que o arquivo <code>operadoras_ativas.csv</code> está no mesmo diretório.</li>
         <li>Execute o script:
-            <pre><code>python app.py</code></pre>
+            <pre><code>python server.py</code></pre>
         </li>
         <li>Acesse a API em <code>http://localhost:5000/busca?q=&lt;termo&gt;</code>.</li>
     </ol>
